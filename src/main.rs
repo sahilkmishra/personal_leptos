@@ -1,4 +1,5 @@
 use leptos::*;
+use leptos::prelude::ElementChild;
 
 #[component]
 fn App(increment: i32) -> impl IntoView {
