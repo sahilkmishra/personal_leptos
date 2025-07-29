@@ -1,5 +1,5 @@
 use leptos::*;
-use leptos::prelude::{ElementChild, signal, OnAttribute};
+use leptos::prelude::*;
 use leptos::mount::{mount_to_body};
 
 #[component]
