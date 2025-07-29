@@ -1,5 +1,6 @@
 use leptos::*;
-use leptos::prelude::ElementChild;
+use leptos::prelude::{ElementChild, create_signal};
+use leptos::mount::{mount_to_body};
 
 #[component]
 fn App(increment: i32) -> impl IntoView {
