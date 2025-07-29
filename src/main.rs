@@ -1,4 +1,3 @@
-use leptos::*;
 use leptos::prelude::*;
 use leptos::mount::{mount_to_body};
 
