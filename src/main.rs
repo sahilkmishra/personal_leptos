@@ -1,10 +1,10 @@
 use leptos::*;
-use leptos::prelude::{ElementChild, create_signal};
+use leptos::prelude::{ElementChild, signal, OnAttribute};
 use leptos::mount::{mount_to_body};
 
 #[component]
 fn App(increment: i32) -> impl IntoView {
-    let (count, set_count) = create_signal(0);
+    let (count, set_count) = signal(0);
 
     view! {
     <div class="container">
@@ -25,8 +25,6 @@ fn App(increment: i32) -> impl IntoView {
             "Click me: "
             {count}
         </button>
-
-
     </div>
     }
 }
