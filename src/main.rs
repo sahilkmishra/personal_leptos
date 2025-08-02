@@ -26,7 +26,7 @@ fn App(increment: i32) -> impl IntoView {
 fn main() {
     mount_to_body(|| {
         view! {
-            <App increment=5 />
+            <App increment=3 />
         }
     })
 }
